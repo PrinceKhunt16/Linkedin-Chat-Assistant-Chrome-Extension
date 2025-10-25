@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap');
+
+.chat-assistant-container {
+  font-family: "Lusitana", sans-serif !important;
+  padding: 16px;
+  background-color: white;
+  border: none;
+  margin-bottom: 25px;
+  border-radius: var(--corner-radius-medium) !important;
+  box-shadow: 0px 0px 0px 1px var(--color-border-faint);
+}
+
+.custom-dropdown {
+  font-family: "Lusitana", sans-serif !important;
+  position: relative;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.dropdown-header {
+  font-size: 18px;
+  font-family: "Lusitana", sans-serif !important;
+  padding: 8px;
+  border: 1px solid #dfdeda;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.dropdown-header:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-arrow {
+  font-size: 12px;
+  transition: transform 0.1s;
+}
+
+.dropdown-arrow.open {
+  transform: rotate(180deg);
+}
+
+.dropdown-options {
+  font-family: "Lusitana", sans-serif !important;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border: 1px solid #dfdeda;
+  border-radius: 8px;
+  margin-top: 4px;
+  z-index: 1000;
+}
+
+.dropdown-option {
+  font-family: "Lusitana", sans-serif !important;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown-option:hover {
+  font-family: "Lusitana", sans-serif !important;
+  background-color: #f1f1f1;
+}
+
+.use-case-container {
+  font-family: "Lusitana", sans-serif !important;
+  box-sizing: border-box;
+}
+
+.message-container {
+  font-family: "Lusitana", sans-serif !important;
+  position: relative;
+  padding: 8px;
+  background-color: #f1f1f1;
+  border: 1px solid #dfdeda;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.copy-button {
+  font-family: "Lusitana", sans-serif !important;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #0b66c2;
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.context-textarea {
+  box-sizing: border-box;
+  font-family: "Lusitana", sans-serif !important;
+  font-size: 18px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  min-height: 200px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  outline: none;
+}
+
+.generate-button {
+  font-family: "Lusitana", sans-serif !important;
+  font-size: 18px;
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  background-color: #0b66c2;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+
+.generate-button:hover,
+.copy-button:hover {
+  background-color: #0b66c2;
+  opacity: 1;
+}
+
+.sub-menu {
+  margin-left: 10px; 
+  border-left: 2px solid #ccc; 
+  padding-left: 10px; 
+  height: 135px;
+  overflow: scroll;
+}
+
+.sub-menu-option {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.sub-menu-option:hover {
+  background-color: #f0f0f0; 
+}
+
+.sub-menu-option.active {
+  background-color: #0b66c2;
+  color: white;
+}
+
+.message-template-container {
+  margin-top: 20px;
+}
+
+.storage-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.storage-input {
+  font-size: 18px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Lusitana", sans-serif;
+}
+
+.saved-data-container {
+  font-family: "Lusitana", sans-serif;
+}
+
+.saved-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-family: "Lusitana", sans-serif;
+}
+
+.saved-item strong {
+  display: block;
+  margin-bottom: 5px;
+  font-family: "Lusitana", sans-serif;
+}
+
+.saved-prompt-title {
+  
+  font-family: "Lusitana", sans-serif;
+}
+
+.saved-item-key {
+  font-size: 16px;
+  font-family: "Lusitana", sans-serif;
+}
+
+.storage-item {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.storage-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.storage-copy-button {
+  font-family: "Lusitana", sans-serif !important;
+  background-color: #0b66c2;
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  margin: 0;
+}
+
+.storage-delete-button {
+  font-family: "Lusitana", sans-serif !important;
+  background-color: #c20b0b;
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  margin: 0;
+}
