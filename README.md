@@ -1,4 +1,4 @@
-# Linkedin Chat Assistant [Click](URL)
+# Linkedin Chat Assistant [Click](https://chromewebstore.google.com/detail/linkedin-chat-assistant/lponolgdemijgndelchhnmnnhmdfblih)
 
 ![LOGO](previews/linkedinchatassistantl3.jpeg)
 ![IMG1](previews/linkedinchatassistanti1.jpeg)
